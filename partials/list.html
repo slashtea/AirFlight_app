@@ -1,0 +1,15 @@
+<div class="available_airports">
+	<h2>List of Available Airports</h2>
+	<table border=1>
+		<tr>
+			<th>Airport Code & name: </th>
+			<th>City</th>
+			<th>Destinations</th>
+		</tr>
+		<tr ng-repeat="airport in airPorts">
+			<td><a href="#/details/{{airPorts.indexOf(airport)}}">{{airport.code}} - {{airport.name}}</a></td>
+			<td>{{airport.city}}</td>
+			<td>{{airport.destinations}}</td>
+		</tr>
+	</table>
+</div>	

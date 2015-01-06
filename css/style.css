@@ -1,0 +1,15 @@
+/* General Styles */
+
+.available_airports h2 {
+text-align: center;
+}
+
+.available_airports table {
+	margin: 0 auto;
+}
+
+.available_airports table tr a {
+	color:	green;
+	cursor: pointer;
+	text-decoration: none;
+}

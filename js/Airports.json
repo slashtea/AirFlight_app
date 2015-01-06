@@ -1,0 +1,26 @@
+[
+  	{
+		"code":"ATL",
+		"name":"Hartsfield Jackson Atlanta International Airport",
+		"city":"Atlanta",
+		"destinations":"LAX,JFK,IAH"
+  	},
+	{
+		"code":"DFW",
+		"name":"Dallas\/Fort Worth International Airport",
+		"city":"Dallas\/Fort Worth",
+		"destinations":"LAX,DEN,JFK,SFO,MCI"
+	},
+	{
+		"code":"LAX",
+		"name":"Los Angeles International Airport",
+		"city":"Los Angeles",
+		"destinations":"ATL,ORD,DFW,DEN,JFK,SFO,LAS"
+	},
+	{
+		"code":"ORD",
+		"name":"O'Hare International Airport",
+		"city":"Chicago",
+		"destinations":"LAX,JFK,IAH"
+	}
+]
