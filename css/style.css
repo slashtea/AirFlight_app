@@ -1,15 +1,20 @@
 /* General Styles */
 
-.available_airports h2 {
+.available_airports {
 text-align: center;
 }
 
-.available_airports table {
-	margin: 0 auto;
+.list-airports  {
+	margin: 50px auto;
 }
 
-.available_airports table tr a {
+.list-airports tr a {
 	color:	green;
 	cursor: pointer;
 	text-decoration: none;
+}
+
+.airports-details {
+	font-size: 18px;
+	color: #484137;
 }
